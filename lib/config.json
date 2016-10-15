@@ -1,0 +1,12 @@
+{
+  "githubToken": {
+    "description": "Github access token",
+    "type": "string",
+    "default": ""
+  },
+  "syncOnSave": {
+    "description": "Auto save in github after save in atom",
+    "type": "boolean",
+    "default": false
+  }
+}
