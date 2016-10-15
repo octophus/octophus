@@ -163,7 +163,7 @@
 
 }
 
-.ftptree-view-resizer {
+.tree-view-resizer {
   position: relative;
   height: 100%;
   overflow: hidden;
@@ -181,7 +181,7 @@
   & > .order--center { order:   0; }
   & > .order--end    { order:  10; }
 
-  .ftptree-view-resize-handle {
+  .tree-view-resize-handle {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -191,14 +191,55 @@
   }
 
   &[data-show-on-right-side='true'] {
-    .ftptree-view-resize-handle {
+    .tree-view-resize-handle {
       left: -5px;
     }
   }
 
   &[data-show-on-right-side='false'] {
-    .ftptree-view-resize-handle {
+    .tree-view-resize-handle {
       right: -5px;
+    }
+  }
+}
+
+
+.tree-view-scroller {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  overflow: auto;
+}
+
+.tree-view {
+  flex-grow: 1;
+  flex-shrink: 0;
+  min-width: -webkit-min-content;
+  min-height: 100%;
+  padding-left: @component-icon-padding;
+  padding-right: @component-padding;
+  position: relative;
+
+  .header {
+    position: relative;
+  }
+
+  .list-tree {
+    position: static;
+  }
+
+  .entry {
+    // This fixes #110, see that issue for more details
+    &:before {
+      content: '';
+      position: absolute;
+    }
+  }
+
+  .project-root {
+  &:before {
+    height: 3em !important;
     }
   }
 }

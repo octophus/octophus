@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.2.0"
+    "tmp": "0.0.29",
+    "jquery": "^2.1.4",
+    "theorist": "*",
+    "fs-plus": "*",
     "github": "^5.2.2"
   }
 }
