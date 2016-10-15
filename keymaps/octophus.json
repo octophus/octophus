@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "octophus:toggle"
+    "ctrl-alt-o": "octophus:open-repo"
   }
 }
