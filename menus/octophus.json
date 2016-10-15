@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle octophus",
+        "command": "octophus:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "octophus",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "octophus:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
