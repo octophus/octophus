@@ -3,8 +3,7 @@
   "main": "./lib/octophus",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "octophus:toggle"
   },
@@ -16,6 +15,7 @@
   "dependencies": {
     "jquery": "^2.1.4",
     "theorist": "*",
-    "fs-plus": "*"
+    "fs-plus": "*",
+    "github": "^5.2.2"
   }
 }
