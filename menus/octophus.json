@@ -9,6 +9,12 @@
         "label": "Open Github Repo",
         "command": "octophus:open-repo"
       }
+    ],
+    ".octophus-view .list-tree.full-menu": [
+      {
+        "label": "Add File",
+        "command": "octophus:add-file"
+      }
     ]
   },
   "menu": [
