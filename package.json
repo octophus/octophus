@@ -13,7 +13,10 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "github": "^5.2.2",
-    "tmp": "0.0.29"
+    "tmp": "0.0.29",
+    "jquery": "^2.1.4",
+    "theorist": "*",
+    "fs-plus": "*",
+    "github": "^5.2.2"
   }
 }
