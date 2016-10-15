@@ -5,14 +5,20 @@
   "description": "A short description of your package",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "octophus:toggle"
-  },
+  "activationCommands": [],
   "repository": "https://github.com/atom/octophus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
   "dependencies": {
+    "jquery": "^2.1.4"
   }
 }
