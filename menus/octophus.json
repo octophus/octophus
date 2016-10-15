@@ -4,6 +4,10 @@
       {
         "label": "Toggle octophus",
         "command": "octophus:toggle"
+      },
+      {
+        "label": "Open Github Repo",
+        "command": "octophus:open-repo"
       }
     ]
   },
@@ -12,8 +16,12 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "octophus",
+          "label": "Octophus",
           "submenu": [
+            {
+              "label": "Open Github Repo",
+              "command": "octophus:open-repo"
+            },
             {
               "label": "Toggle",
               "command": "octophus:toggle"
