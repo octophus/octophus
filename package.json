@@ -13,10 +13,14 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "tmp": "0.0.29",
+    "bluebird": "^3.4.6",
+    "fs-plus": "*",
+    "github": "^5.2.2",
     "jquery": "^2.1.4",
     "theorist": "*",
-    "fs-plus": "*",
-    "github": "^5.2.2"
+    "tmp": "0.0.29"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0"
   }
 }
