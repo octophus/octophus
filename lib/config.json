@@ -1,6 +1,6 @@
 {
   "githubToken": {
-    "description": "Github access token",
+    "description": "GitHub access token (https://github.com/settings/tokens/new)",
     "type": "string",
     "default": ""
   },
