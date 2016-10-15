@@ -4,9 +4,9 @@
     "type": "string",
     "default": ""
   },
-  "syncOnSave": {
-    "description": "Auto save in github after save in atom",
-    "type": "boolean",
-    "default": false
+  "saveTimeout": {
+    "description": "Auto save after certain time",
+    "type": "integer",
+    "default": 10
   }
 }
