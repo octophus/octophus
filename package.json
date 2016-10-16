@@ -1,9 +1,15 @@
 {
   "name": "octophus",
   "main": "./lib/octophus",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Live load and edit files from a remote repo on GitHub in atom.",
-  "keywords": ["atom", "GitHub", "remote", "git", "repo"],
+  "keywords": [
+    "atom",
+    "GitHub",
+    "remote",
+    "git",
+    "repo"
+  ],
   "activationCommands": [],
   "repository": "https://github.com/octophus/octophus",
   "license": "MIT",
