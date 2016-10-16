@@ -2,11 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle octophus",
-        "command": "octophus:toggle"
-      },
-      {
-        "label": "Open Github Repo",
+        "label": "Open GitHub Repo",
         "command": "octophus:open-repo"
       }
     ],
@@ -33,12 +29,12 @@
           "label": "Octophus",
           "submenu": [
             {
-              "label": "Open Github Repo",
+              "label": "Open GitHub Repo",
               "command": "octophus:open-repo"
             },
             {
-              "label": "Toggle",
-              "command": "octophus:toggle"
+              "label": "Commit with Message",
+              "command": "octophus:do-commit-message"
             }
           ]
         }
