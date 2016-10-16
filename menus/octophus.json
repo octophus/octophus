@@ -6,7 +6,7 @@
         "command": "octophus:toggle"
       },
       {
-        "label": "Open Github Repo",
+        "label": "Open GitHub Repo",
         "command": "octophus:open-repo"
       }
     ],
@@ -33,12 +33,12 @@
           "label": "Octophus",
           "submenu": [
             {
-              "label": "Open Github Repo",
+              "label": "Open GitHub Repo",
               "command": "octophus:open-repo"
             },
             {
-              "label": "Toggle",
-              "command": "octophus:toggle"
+              "label": "Commit",
+              "command": "octophus:do-commit-message"
             }
           ]
         }
