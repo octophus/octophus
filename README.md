@@ -16,9 +16,9 @@ Search for `octophus` within package search in the Settings View.
 
 **SET UP YOUR GITHUB TOKEN FIRST!** Octophus needs read and write access to your GitHub repo. So make sure you [generated a private access token](https://github.com/settings/tokens/new) for Octophus and [write it in package settings](#Configuration).
 
-**Otophus: Open GitHub Repo**  <kbd>control-option-command-O</kbd> will open a remote repo from GitHub and load it into your atom editor.
+**Octophus: Open GitHub Repo**  <kbd>control-option-command-O</kbd> will open a remote repo from GitHub and load it into your atom editor.
 
-**Otophus: Commit with Message**  <kbd>control-option-command-K</kbd> will allow you to save changes with your own message.
+**Octophus: Commit with Message**  <kbd>control-option-command-K</kbd> will allow you to save changes with your own message.
 
 As you save the file in the editor, the remote file in your remote repo will be updated as well. Note that there would never be a "commit storm", any new changes will be smartly integrated into one commit. 
 
