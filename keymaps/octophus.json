@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "octophus:open-repo"
+    "ctrl-alt-cmd-o": "octophus:open-repo",
+    "ctrl-alt-cmd-k": "octophus:do-commit-message"
   }
 }
