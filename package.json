@@ -1,7 +1,7 @@
 {
   "name": "octophus",
   "main": "./lib/octophus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Live load and edit files from a remote repo on GitHub in atom.",
   "keywords": [
     "atom",
