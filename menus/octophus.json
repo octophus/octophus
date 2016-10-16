@@ -10,9 +10,17 @@
         "command": "octophus:open-repo"
       }
     ],
+    ".tree-view.full-menu": [
+    ],
     ".octophus-view .list-tree.full-menu": [
       {
-        "label": "Add File",
+        "label": "Add File to GitHub",
+        "command": "octophus:add-file"
+      }
+    ],
+    ".octophus-view .list-item": [
+      {
+        "label": "Add File to GitHub",
         "command": "octophus:add-file"
       }
     ]
