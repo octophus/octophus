@@ -37,8 +37,8 @@
               "command": "octophus:open-repo"
             },
             {
-              "label": "Toggle",
-              "command": "octophus:toggle"
+              "label": "Commit",
+              "command": "octophus:do-commit-message"
             }
           ]
         }
