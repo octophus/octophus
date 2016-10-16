@@ -34,4 +34,4 @@ Go to *Package Settings* page to finish the configuration.
 
 ## Contribution
 
-This is a hackathon idea and is still development. We plan to maintain this package for a longer time. Free free to send us an issue or a pull request!
+This is a hackathon idea and is still development. We plan to maintain this package for a longer time. Feel free to send us an issue or a pull request!
